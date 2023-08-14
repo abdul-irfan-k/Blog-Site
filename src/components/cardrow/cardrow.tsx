@@ -18,7 +18,7 @@ const CardRow: React.FC<CardProps> = ({
 }) => {
   return (
     <div className="flex gap-5 ">
-      <div className="relative bg-red-500 flex-1" style={{aspectRatio:'4/2.3'}}>
+      <div className="relative  flex-1" style={{aspectRatio:'4/2.3'}}>
         <Image src={imageUrl} layout="fill" alt="image" />
       </div>
       <div className=" flex flex-col justify-center gap-1 flex-[1.5] ">

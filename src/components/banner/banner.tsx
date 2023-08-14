@@ -9,7 +9,7 @@ interface BannerProps {
 
 const Banner: FC<BannerProps> = ({ category, imageUrl, title, date }) => {
   return (
-    <div className="relative w-full h-full flex  flex-col bg-green-500">
+    <div className="relative w-full h-full flex  flex-col ">
       <div className="relative w-full h-full aspect-video">
         <Image src={imageUrl} layout="fill" alt="image" />
       </div>

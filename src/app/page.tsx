@@ -28,7 +28,7 @@ const Homepage = () => {
   return (
     <div>
       <div className="flex md:flex-row flex-col  mt-10 gap-5 ">
-        <div className="md:aspect-auto aspect-video flex-1 bg-red-400 ">
+        <div className="md:aspect-auto aspect-video flex-1 ">
           <Banner
             category="Stock market"
             imageUrl={"/Asset/1.jpeg"}
